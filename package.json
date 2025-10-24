@@ -1,0 +1,18 @@
+{
+  "name": "hoop-login",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "hoop-login": "dist/hoop-login.js"
+  },
+  "scripts": {
+    "build": "esbuild login.js --bundle --platform=node --format=esm --target=node20 --outfile=dist/hoop-login.js"
+  },
+  "devDependencies": {
+    "confbox": "^0.2.2",
+    "esbuild": "^0.18.20"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
