@@ -1,0 +1,11 @@
+{
+  "name": "hoop-login",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "hoop-login": "dist/hoop-login.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
