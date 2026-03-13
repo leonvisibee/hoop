@@ -9,3 +9,4 @@ npm install && npm run build && npm install -g .
 ```
 npm uninstall -g hoop-login
 ```
+
